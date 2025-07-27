@@ -83,39 +83,41 @@ The following API endpoints are available:
 ---
 
 ## 📂 Project Structure
+```bash
 mern-product-store/
-├── backend/                  # Backend (Node.js/Express)
-│   ├── config/
-│   │   └── db.js             # MongoDB connection configuration
-│   ├── controllers/
-│   │   └── product.controller.js # Product business logic
-│   ├── models/
-│   │   └── Product.js        # Mongoose schema and model
-│   ├── routes/
-│   │   └── product.route.js  # API endpoints
-│   └── server.js             # Server initialization
-├── frontend/                 # Frontend (React + Vite)
-│   ├── public/
-│   │   └── vite.svg          # Vite logo
-│   ├── src/
-│   │   ├── assets/
-│   │   │   └── react.svg     # React logo
-│   │   ├── components/       # Reusable components
-│   │   │   ├── Navbar.jsx    # Navigation bar
-│   │   │   └── ProductCard.jsx # Product display card
-│   │   ├── pages/            # Page components
-│   │   │   ├── CreatePage.jsx # Product creation page
-│   │   │   └── HomePage.jsx  # Main product listing page
-│   │   ├── store/
-│   │   │   └── product.js    # Zustand state management
-│   │   ├── App.jsx           # Root component
-│   │   └── main.jsx          # Entry point
-│   ├── .gitignore
-│   ├── eslint.config.js      # ESLint configuration
-│   ├── index.html            # Main HTML template
-│   ├── package-lock.json
-│   ├── package.json          # Frontend dependencies
-│   └── vite.config.js        # Vite configuration
-├── .gitignore                # Global gitignore
-├── package-lock.json
-└── package.json              # Root project configuration
+├── backend/                   # Backend (Node.js/Express)
+│   ├── config/                # Configuration files
+│   │   └── db.js              # MongoDB connection
+│   ├── controllers/           # Business logic
+│   │   └── product.controller.js
+│   ├── models/                # Database models
+│   │   └── Product.js         # Product schema
+│   ├── routes/                # API endpoints
+│   │   └── product.route.js
+│   └── server.js             # Server entry point
+│
+├── frontend/                  # Frontend (React + Vite)
+│   ├── public/                # Static assets
+│   │   └── vite.svg
+│   ├── src/                   # Source code
+│   │   ├── assets/            # Images/icons
+│   │   │   └── react.svg
+│   │   ├── components/        # UI components
+│   │   │   ├── Navbar.jsx
+│   │   │   └── ProductCard.jsx
+│   │   ├── pages/             # Page components
+│   │   │   ├── CreatePage.jsx
+│   │   │   └── HomePage.jsx
+│   │   ├── store/             # State management
+│   │   │   └── product.js     # Zustand store
+│   │   ├── App.jsx            # Root component
+│   │   └── main.jsx           # Entry point   
+│   ├── eslint.config.js       # Linting config
+│   ├── index.html             # Main HTML
+│   ├── package.json           # Frontend dependencies
+│   └── vite.config.js         # Vite config
+│
+├── .gitignore                # Global ignore rules
+├── package.json              # Root dependencies
+└── package-lock.json         # Lock file
+```
