@@ -1,5 +1,7 @@
 # MERN Product Store
 
+[![Live Demo](https://img.shields.io/badge/Demo-Live%20Demo-brightgreen)](https://mern-product-store-mgzv.onrender.com)
+
 This is a full-stack MERN (MongoDB, Express, React, Node.js) application that allows users to manage a product inventory. Users can create, read, update, and delete products.
 
 ---
